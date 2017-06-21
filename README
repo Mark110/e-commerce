@@ -1,7 +1,6 @@
 
-Welcome to Apache OFBiz!
 
-All you need to run OFBiz is a 1.6 (version 6) JDK
+All you need to run e-commerce is a 1.6 (version 6) JDK
 (not just the JRE, the full JDK).
 http://java.sun.com/javase/downloads/index.jsp
 
@@ -12,21 +11,21 @@ type "./ant" rather than "ant"):
 
 ant load-demo
 
-Then start OFBiz:
+Then start e-commerce:
 
 ant start
 
 (or "java -Xms128M -Xmx512M -XX:MaxPermSize=128m -jar ofbiz.jar")
 
-Once OFBiz starts, you can look at the demo storefront at:
+Once e-commerce starts, you can look at the demo storefront at:
 http://localhost:8080/ecommerce
 
 and the administration interface at:
 https://localhost:8443/webtools
 
-You can log in with the user "admin" and password "ofbiz".
+You can log in with the user "admin" and password "e-commerce".
 
-To stop OFBiz:
+To stop e-commerce:
 
 ant stop
 
@@ -44,17 +43,17 @@ Tomcat, Geronimo (transaction manager), etc.
 
 For more details about OFBiz please visit the OFBiz Documentation page:
 
-http://ofbiz.apache.org/documentation.html
+http://e-commerce.apache.org/documentation.html
 
 In this page you will find links to useful guides such as:
 * "Demo and Test Setup Guide"
 * "Basic Production Setup Guide"
 * "A Beginners Development Guide"
 
-If you would like to get in touch with the OFBiz community of users and
+If you would like to get in touch with the e-commerce community of users and
 developers, the following page will help to get started:
 
-http://ofbiz.apache.org/community.html
+http://e-commerce.apache.org/community.html
 
 Enjoy!
 
@@ -83,7 +82,7 @@ Enjoy!
    The following provides more details on the included cryptographic
    software:
 
-   * Various classes in OFBiz, including DesCrypt, HashCrypt, and
+   * Various classes in e-commerce, including DesCrypt, HashCrypt, and
      BlowFishCrypt use libraries from the Sun Java JDK API including
      java.security.* and javax.crypto.* (the JCE, Java Cryptography
      Extensions API)
